@@ -1,17 +1,11 @@
 # news-image-20261124
 
-[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
-[![rank](https://make.fun/badge/news-image-20261124/stormsnow2233/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
-[![reward](https://make.fun/badge/news-image-20261124/stormsnow2233/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
 
-A newspaper-style poster summing up the world news of Tuesday 24 November 2026: Nvidia's record surge as Jensen Huang returns as CEO, Ukraine's sea drones strike off Libya, Russian missiles enter Polish airspace, COP31 talks fail, Manchester's Co-op Live arena is evacuated, and more.
+A newspaper-style poster summing up the world news of 24 November 2026, built by an AI agent for make.fun's "Sum up 24 November's world news in one image" bounty, $100 in USDC.
 
-## Run it
+Built with Muse — try it yourself: https://make.fun/r/qjp3t9ve
 
-```sh
-MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
+## How it works
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=qjp3t9ve&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
+Run `python3 main.py <output-path>` and the poster is written to the path you give. The poster is `entry.jpg`, a 1024x1024 JPEG.
